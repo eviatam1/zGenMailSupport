@@ -1,0 +1,19 @@
+{
+  "name": "ModMail",
+  "description": "Easy way to install ModMail bot for your Discord server",
+  "repository": "https://github.com/eviatam1/zGenMailSupport",
+  "env": {
+    "TOKEN": {
+        "description": "Your Discord bot's token.",
+        "required": true
+    },
+    "GUILD_ID": {
+      "description": "The id for the server you are hosting this bot for.",
+      "required": true
+    },
+    "PREFIX": {
+      "description": "Command prefix to use.",
+      "required": false
+    }
+  }
+}
