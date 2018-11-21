@@ -209,9 +209,7 @@ class Modmail(commands.Bot):
         await categ.delete()
         await ctx.send('Disabled modmail.')
 
-        @bot.command()
-async def invite(ctx,):
-  await ctx.send('https://discordapp.com/oauth2/authorize?&client_id=512866748165390348&scope=bot&permissions=268575766')
+       
 
     @commands.command(name='close')
     @commands.has_permissions(manage_channels=True)
